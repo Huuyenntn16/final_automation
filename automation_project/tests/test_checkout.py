@@ -1,7 +1,7 @@
 from base.base_test import BaseTest
 from pages.cart_page import CartPage
 from pages.checkout_page import CheckoutPage
-from pages.iventory_page import InventoryPage
+from automation_project.pages.inventory_page import InventoryPage
 from pages.login_page import LoginPage
 from utils.config_reader import ConfigReader
 
