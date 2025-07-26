@@ -10,13 +10,13 @@ class TestLogin(BaseTest):
         
         login_page = LoginPage(self.driver)
         
-        # time.sleep(1)
-        # self.allure_screenshot("test_login_login_screenshot")
+        time.sleep(1)
+        self.allure_screenshot("test_login_screenshot")
 
         login_page.login(config.username, config.password)
 
-        # time.sleep(2)
-        # self.allure_screenshot("test_login_dashboard_screenshot")
+        time.sleep(2)
+        self.allure_screenshot("test_login_inventory_screenshot")
 
         
         
