@@ -2,7 +2,7 @@ from base.base_test import BaseTest
 from pages.login_page import LoginPage
 from utils.config_reader import ConfigReader
 
-# import time
+import time
 
 class TestLogin(BaseTest):
     def test_login(self):
